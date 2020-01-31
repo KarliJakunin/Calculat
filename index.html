@@ -1,17 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Budget calculator</title>
-</head>
-<body>
-    <div class="conteiner">
-        <div></div>
-        <div></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Eelarve kalkulaator</title>
+  </head>
+  <body>
+    <div id="calculator-wrapper-mobile">
+      <button id="close-btn">
+        <img src="assets/close-modal-btn.svg" alt="close-icon" />
+      </button>
+      <input type="text" id="new_deal" placeholder="Summa" />
+      <input type="text" id="new_comment" placeholder="Kirjeldus" />
+      <div class="submit-wrapper">
+        <button type="submit" id="positive-deal">+</button>
+        <button id="negative-deal" type="submit">-</button>
+      </div>
     </div>
+    <section id="calc-wrapper">
+      <div class="calc-wrapper-bg">
+        <img
+          src="assets/elllips-desktop-calc.svg"
+          alt="Left side desktop background"
+        />
+      </div>
+      <div class="calc-wrapper-bg-mobile">
+        <img
+          src="assets/ellips-mobile-calc.png"
+          alt="Left side desktop background"
+        />
+      </div>
+      <div class="summary-header">
+        <div class="free-cash">
+          <p>Vaba raha</p>
+        </div>
+        <div class="saldo">
+          <span class="euro-icon">€</span>
+          <span id="answer"></span>
+        </div>
+        <button id="activate-modal">
+          <img src="assets/plus-icon.svg" alt="plus icon" />
+        </button>
+      </div>
+      <div id="calculator-wrapper">
+        <button id="close-btn">
+          <img src="assets/close-modal-btn.svg" alt="close-icon" />
+        </button>
+        <input type="text" id="new_deal" placeholder="Summa" />
+        <input type="text" id="new_comment" placeholder="Kirjeldus" />
+        <div class="submit-wrapper">
+          <button id="position-deal">+</button>
+          <button id="negative-deal">-</button>
+        </div>
+      </div>
+    </section>
+    <section id="deals-wrapper">
+      <div class="deals-wrapper-bg">
+        <img
+          src="assets/polygon_desktop_deals.svg"
+          alt="Polygon on desktop deals background"
+        />
+      </div>
+      <div id="container">
+        <p></p>
+      </div>
+    </section>
     <script src="app.js"></script>
-</body>
+    <script src="modal.js"></script>
+  </body>
 </html>
