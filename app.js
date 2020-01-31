@@ -1,6 +1,21 @@
-var clientInput = document.querySelector("#new_deal").value;
-var clientComment = document.querySelector("#new_comment");
-var addPlus = document.querySelector("#positive");
-var addMinus = document.querySelector("#negative-deal");
-var answerBox = document.querySelector("#answer");
-let total = 0;
+const answer = document.querySelector("#answer");
+const newdeal = document.querySelector("#newdeal");
+const positiondeal = document.querySelector("button");
+const issueanswer = document.querySelector("#issueanswer");
+
+function calc() {
+    answer.innerText = parseInt(answer.value) + parseInt(newdeal.value);
+}
+position-deal.addEventListener("click", calc);
+
+
+
+const answer = document.querySelector("#answer");
+const newdeal = document.querySelector("#newdeal");
+const nagativedeal = document.querySelector("button");
+const issueanswer = document.querySelector("#issueanswer");
+
+function calc() {
+    answer.innerText = parseInt(answer.value) - parseInt(newdeal.value);
+}
+negative-deal.addEventListener("click", calc);
