@@ -1,19 +1,21 @@
-Localhost
-    - Gen Vikat TA-19
-    - Uku Volke TA-18
-    - Karli Jakunin TA-19
-    - Karoliina Pilden TAK-18
-    - Richard Anwar Rahnik TAK-18
-    - Risto Vill TAK-19
+# Budget Calculator
 
-Mobiili ja Pc disain figma
-(https://www.figma.com/file/zFuFl5N5u9gZ1xtvTecbqG/Untitled?node-id=0%3A1)
+## Localhost
+    * Gen Vikat TA-19
+    * Uku Volke TA-18
+    * Karli Jakunin TA-19
+    * Karoliina Pilden TAK-18
+    * Richard Anwar Rahnik TAK-18
+    * Risto Vill TAK-19
 
-Slack invite link
-(shorturl.at/qzGSX)
+## Mobile && Desktop
+[Figma Mobile && Desktop UI](https://www.figma.com/file/zFuFl5N5u9gZ1xtvTecbqG/Untitled?node-id=0%3A1)
 
-Github link
-(https://github.com/KarliJakunin/Calculat)
+## Slack
+[Tulge meile külla](shorturl.at/qzGSX)
 
-Zone link
-(http://kalkulaator.ta18volke.itmajakas.ee/)
+## Github
+[Github Repo](https://github.com/KarliJakunin/Calculat)
+
+## Zone
+[Live site / Budget Calculator](http://kalkulaator.ta18volke.itmajakas.ee/)
